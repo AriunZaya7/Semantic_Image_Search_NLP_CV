@@ -3,5 +3,11 @@ name = "semantic-image-search-nlp-cv"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.9"
-dependencies = []
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.4.4",
+    "open-clip-torch>=3.3.0",
+    "pillow>=12.2.0",
+    "streamlit>=1.56.0",
+    "torch>=2.11.0",
+]
